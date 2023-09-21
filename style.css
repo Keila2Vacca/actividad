@@ -1,0 +1,82 @@
+/* Importacion de Tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* selector por etiqueta */
+span {
+    color: steelblue
+}
+/* selector por id */
+#option_one,  #option_three {
+    font-weight: 700;
+    background-color: chocolate;
+    margin-left: 20px;
+}
+
+/* selector por clase */
+.option_group {
+    background-color: black;
+}
+/* selector por atributo */
+:disabled {
+    background-color: red;
+}
+.option_group.other_option {
+    font-size: 50px;
+
+}
+
+#title_box {
+    color: rgb(0, 0, 184);
+    background-color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 10px 20px 15px 25px;
+    border-radius: 10px;
+    border: 3px dotted #000;
+    padding-bottom: 50px;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    font-size: 50px;
+    box-shadow: 0px 0px 10px 2px #000fff;
+    -webkit-box-shadow: 20px -8px 23px 0px rgba(167, 89, 89, 0.75);
+    -moz-box-shadow: 20px -8px 23px 0px rgba(136, 29, 118, 0.75);
+    box-shadow: 20px -8px 23px 0px rgba(216, 96, 210, 0.75);
+}
+
+#box_father{
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+@media(max_width:799px){
+    body{
+        background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+}
+
+/* #box_model {
+    background-color: orange;
+    width: 50%;
+    height: 50%;
+} */
+
+/* aplicacion de media queris */
+
+@media(min-width: 800px) and (max-width:1200px){
+    body{
+        background-color: aquamarine;
+    }
+}
